@@ -13,7 +13,9 @@ import FirstFlatList from './components/FirstFlatList/FirstFlatList';
 import FirstSectionList from './components/FirstSectionList/FirstSectionList';
 import HandleTextInput from './components/HandleTextInput/HandleTextInput';
 import ListWithMap from './components/ListWithMap/ListWithMap';
+import ResponsiveFlexLayout from './components/ResponsiveFlexLayout/ResponsiveFlexLayout';
 import SimpleForm from './components/SimpleForm/SimpleForm';
+import TouchableHighlight from './components/MyTouchableHighlight/MyTouchableHighlight';
 import UnmountEffect from './components/UnmountEffect/UnmountEffect';
 import exStyles from './styles/exStyles';
 
@@ -26,7 +28,7 @@ function App() {
   const handleOnPress = () => console.warn('function called');
   const handleIncrementByFive = () => setANumber(prev => prev + 5);
   return (
-    <View>
+    <>
       {/* <Text style={styles.commonTextStyles}>Style in React Native</Text>
       <Text style={exStyles.commonTextStyles}>External Styles</Text>
       <Text
@@ -42,8 +44,10 @@ function App() {
       {/* <FirstFlatList /> */}
       {/* <ListWithMap /> */}
       {/* <FirstSectionList /> */}
-      <UnmountEffect />
-    </View>
+      {/* <UnmountEffect /> */}
+      {/* <ResponsiveFlexLayout /> */}
+      <TouchableHighlight />
+    </>
   );
 }
 
