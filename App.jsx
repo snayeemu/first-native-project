@@ -18,6 +18,7 @@ import SimpleForm from './components/SimpleForm/SimpleForm';
 import TouchableHighlight from './components/MyTouchableHighlight/MyTouchableHighlight';
 import UnmountEffect from './components/UnmountEffect/UnmountEffect';
 import exStyles from './styles/exStyles';
+import RadioButton from './components/RadioButton/RadioButton';
 
 const fruit = () => 'apple';
 
@@ -46,7 +47,8 @@ function App() {
       {/* <FirstSectionList /> */}
       {/* <UnmountEffect /> */}
       {/* <ResponsiveFlexLayout /> */}
-      <TouchableHighlight />
+      {/* <TouchableHighlight /> */}
+      <RadioButton />
     </>
   );
 }
