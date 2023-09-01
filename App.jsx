@@ -19,6 +19,7 @@ import TouchableHighlight from './components/MyTouchableHighlight/MyTouchableHig
 import UnmountEffect from './components/UnmountEffect/UnmountEffect';
 import exStyles from './styles/exStyles';
 import RadioButton from './components/RadioButton/RadioButton';
+import ApplicationIndicator from './components/ApplicationIndicator/ApplicationIndicator';
 
 const fruit = () => 'apple';
 
@@ -48,7 +49,8 @@ function App() {
       {/* <UnmountEffect /> */}
       {/* <ResponsiveFlexLayout /> */}
       {/* <TouchableHighlight /> */}
-      <RadioButton />
+      {/* <RadioButton /> */}
+      <ApplicationIndicator />
     </>
   );
 }
