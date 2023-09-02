@@ -20,6 +20,7 @@ import UnmountEffect from './components/UnmountEffect/UnmountEffect';
 import exStyles from './styles/exStyles';
 import RadioButton from './components/RadioButton/RadioButton';
 import ApplicationIndicator from './components/ApplicationIndicator/ApplicationIndicator';
+import MyModal from './components/MyModal/MyModal';
 
 const fruit = () => 'apple';
 
@@ -50,7 +51,8 @@ function App() {
       {/* <ResponsiveFlexLayout /> */}
       {/* <TouchableHighlight /> */}
       {/* <RadioButton /> */}
-      <ApplicationIndicator />
+      {/* <ApplicationIndicator /> */}
+      <MyModal />
     </>
   );
 }
